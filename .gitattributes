@@ -1,0 +1,12 @@
+# Normaliser les fichiers texte en LF
+* text=auto
+
+# Forcer les fichiers spécifiques en LF
+*.js text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.json text eol=lf
+
+# Garder les fichiers binaires inchangés
+*.png binary
+*.jpg binary
