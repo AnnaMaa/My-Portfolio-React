@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  
+
+
+/* Navbar brand (Logo) */
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/* Nav links */
+.navbar-nav .nav-link {
+  margin-right: 15px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #ddd;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff; /* Hover color */
+}
+
+/* Active link */
+.navbar-nav .nav-link.active {
+  color: #007bff; /* Color for active link */
+  font-weight: bold;
+ 
+}
+
+/* Navbar toggle (hamburger) */
+.navbar-toggler {
+  border: none;
+  outline: none;
+}

@@ -1,0 +1,93 @@
+/* Section principale */
+.services {
+    padding: 50px 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #1e1e1e;
+  }
+  
+  .section-subtitle {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #666;
+  }
+
+  
+.services-underline {
+    width: 30%; 
+    height: 4px; 
+    background-color: #007bff; 
+    margin: 10px auto; 
+    border-radius: 2px; 
+  }
+  
+  @media (max-width: 768px) {
+    .services-underline {
+      width: 80px; /* Réduit la largeur sur les petits écrans */
+    }
+  }
+  
+  /* Conteneur des cartes */
+  .services-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Permet de s'adapter aux écrans plus petits */
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+   
+  }
+  
+  /* Style des cartes */
+  .service-card {
+    flex: 1 1 calc(33.33% - 20px); 
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .service-icon {
+    font-size: 3rem;
+    color: #007bff;
+    margin-bottom: 15px;
+    transition: color 0.3s ease; 
+  }
+  
+  .service-card:hover .service-icon {
+    color: #cde1f8; /* Changement de couleur de l'icône au survol */
+  }
+  
+  /* Style des titres et paragraphes */
+  .service-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #1e1e1e;
+  }
+  
+  .service-card p {
+    font-size: 1rem;
+    color: #444;
+    line-height: 1.6;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .service-card {
+      flex: 1 1 100%; /* 1 carte par ligne sur petits écrans */
+    }
+  }
+  

@@ -1,0 +1,33 @@
+/* Appliquer "Nunito Sans" comme police par défaut */
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400; 
+    background-color: #EEE; 
+    color: #444; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Appliquer une graisse spécifique pour les titres et <strong> */
+  h1, h2, h3, h4, h5, h6, strong {
+    color: #1e1e1e; 
+    font-weight: 600; 
+  }
+  
+  /* Texte principal (balises <p>, <li>, etc.) */
+  p, li, span {
+    color: #444; 
+    font-weight: 400; 
+  }
+  
+  /* Balises <strong> */
+  strong {
+    color: #000; 
+    font-weight: 600; 
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  

@@ -1,0 +1,112 @@
+.portfolio {
+  padding: 50px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+/* Style pour la bannière */
+.portfolio-banner {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.portfolio-banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+.portfolio-header h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.portfolio-header p {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.portfolio-underline {
+  width: 30%; 
+  height: 4px; 
+  background-color: #007bff; 
+  margin: 10px auto; 
+  border-radius: 2px; 
+}
+
+@media (max-width: 768px) {
+  .portfolio-underline {
+    width: 80px; /* Réduit la largeur sur les petits écrans */
+  }
+}
+
+.portfolio-header p span {
+  font-weight: bold;
+  color: #1e1e1e ;
+}
+
+.portfolio-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.portfolio-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+}
+
+.portfolio-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.portfolio-card h3 {
+  font-size: 1.5rem;
+  margin: 15px 0 10px;
+}
+
+.portfolio-card p {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+
+.portfolio-card button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.portfolio-card button:hover {
+  background-color: #0056b3;
+}
+
+/* Style pour le texte sous le bouton */
+.portfolio-footer {
+  margin-top: 15px; 
+  font-size: 14px;
+  color:#444  ; 
+  border-top: 1px solid #ddd; /* Ligne de séparation */
+  padding-top: 10px;
+  background-color: #EEE;
+}
+
+.portfolio-footer span {
+  font-weight: bold;
+  color: #888;
+  font-style: italic;
+  
+}
