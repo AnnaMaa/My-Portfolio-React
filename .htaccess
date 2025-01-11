@@ -1,0 +1,19 @@
+# Activer le moteur de réécriture
+RewriteEngine On
+
+# Forcer HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://annamaar.alwaysdata.net/$1 [R=301,L]
+
+# Forcer l'utilisation de www
+# RewriteCond %{HTTP_HOST} ^annamaar\.alwaysdata\.net$ [NC]
+# RewriteRule ^(.*)$ https://annamaar.alwaysdata.net/$1 [R=301,L]
+
+
+
+# Masquer index.html
+RewriteCond %{REQUEST_URI} ^/index\.html$ [NC]
+RewriteRule ^index\.html$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /index.html [L]
