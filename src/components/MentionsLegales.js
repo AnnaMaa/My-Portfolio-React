@@ -31,10 +31,10 @@ const MentionsLegales = () => {
             <Accordion.Item eventKey="1">
               <Accordion.Header>Hébergeur</Accordion.Header>
               <Accordion.Body>
-                <p><strong>Always Data</strong></p>
+                <p><strong>Render</strong></p>
                 <p>91 rue du Faubourg Saint-Honoré</p>
                 <p>75008 Paris</p>
-                <p>🌐 <a href="https://www.alwaysdata.com" target="_blank" rel="noopener noreferrer">www.alwaysdata.com</a></p>
+                <p>🌐 <a href="https://www.render.com" target="_blank" rel="noopener noreferrer">www.render.com</a></p>
               </Accordion.Body>
             </Accordion.Item>
 
